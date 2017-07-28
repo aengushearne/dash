@@ -1,0 +1,25 @@
+.App {
+    margin: 0 10%;
+    width: 80%;
+    height: 750px;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 60px 4fr;
+}
+.Header {
+    background-color: #FF9A09;
+    padding: 20px;
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
+.Sidebar {
+    background-color: #069DAC;
+    padding: 20px;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
