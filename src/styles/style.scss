@@ -1,3 +1,5 @@
+@import './_colors.scss';
+
 .App {
     margin: 0 10%;
     width: 80%;
@@ -7,13 +9,13 @@
     grid-template-rows: 60px 4fr;
 }
 .Header {
-    background-color: #FF9A09;
+    background-color: $yellow;
     padding: 20px;
     grid-column-start: 2;
     grid-column-end: 5;
 }
 .Sidebar {
-    background-color: #069DAC;
+    background-color: $blue;
     padding: 20px;
     grid-row-start: 1;
     grid-row-end: 5;
